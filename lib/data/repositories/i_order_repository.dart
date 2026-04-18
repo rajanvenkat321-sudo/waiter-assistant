@@ -7,7 +7,7 @@
 // Swapping Mock → Firebase = creating a new class that implements this interface.
 // ===========================================================================
 
-import 'package:waiter_assistant/models/order_model.dart';
+import 'package:waiter_assistant/data/models/order_model.dart';
 
 abstract class IOrderRepository {
   /// Returns the full static menu list

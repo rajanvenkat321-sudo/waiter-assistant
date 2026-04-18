@@ -6,9 +6,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:waiter_assistant/core/app_theme.dart';
-import 'package:waiter_assistant/screens/waiter/waiter_dashboard_screen.dart';
-import 'package:waiter_assistant/screens/kitchen/kitchen_dashboard_screen.dart';
-import 'package:waiter_assistant/screens/billing/billing_dashboard_screen.dart';
+import 'package:waiter_assistant/features/waiter/waiter_dashboard_screen.dart';
+import 'package:waiter_assistant/features/kitchen/kitchen_dashboard_screen.dart';
+import 'package:waiter_assistant/features/billing/billing_dashboard_screen.dart';
 
 class RoleSelectionScreen extends StatelessWidget {
   const RoleSelectionScreen({super.key});

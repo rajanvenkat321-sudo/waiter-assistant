@@ -10,10 +10,10 @@ import 'package:provider/provider.dart';
 
 import 'package:firebase_core/firebase_core.dart';
 
-import 'package:waiter_assistant/providers/order_provider.dart';
-import 'package:waiter_assistant/screens/role_selection_screen.dart';
+import 'package:waiter_assistant/data/providers/order_provider.dart';
+import 'package:waiter_assistant/features/role_selection/role_selection_screen.dart';
 import 'package:waiter_assistant/core/app_theme.dart';
-import 'package:waiter_assistant/repositories/firebase_order_repository.dart';
+import 'package:waiter_assistant/data/repositories/firebase_order_repository.dart';
 import 'package:waiter_assistant/firebase_options.dart';
 
 void main() async {

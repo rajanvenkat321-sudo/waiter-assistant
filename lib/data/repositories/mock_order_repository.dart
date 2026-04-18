@@ -10,8 +10,8 @@
 
 import 'package:uuid/uuid.dart';
 
-import 'package:waiter_assistant/models/order_model.dart';
-import 'package:waiter_assistant/repositories/i_order_repository.dart';
+import 'package:waiter_assistant/data/models/order_model.dart';
+import 'package:waiter_assistant/data/repositories/i_order_repository.dart';
 
 class MockOrderRepository implements IOrderRepository {
   // UUID generator for creating unique order IDs

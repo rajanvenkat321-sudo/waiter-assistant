@@ -9,10 +9,10 @@
 
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:waiter_assistant/models/order_model.dart';
-import 'package:waiter_assistant/repositories/i_order_repository.dart';
-import 'package:waiter_assistant/repositories/mock_order_repository.dart';
-import 'package:waiter_assistant/repositories/firebase_order_repository.dart';
+import 'package:waiter_assistant/data/models/order_model.dart';
+import 'package:waiter_assistant/data/repositories/i_order_repository.dart';
+import 'package:waiter_assistant/data/repositories/mock_order_repository.dart';
+import 'package:waiter_assistant/data/repositories/firebase_order_repository.dart';
 
 class OrderProvider extends ChangeNotifier {
 

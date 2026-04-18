@@ -7,8 +7,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:waiter_assistant/core/app_theme.dart';
-import 'package:waiter_assistant/providers/order_provider.dart';
-import 'package:waiter_assistant/models/order_model.dart';
+import 'package:waiter_assistant/data/providers/order_provider.dart';
+import 'package:waiter_assistant/data/models/order_model.dart';
 
 class WaiterDashboardScreen extends StatefulWidget {
   const WaiterDashboardScreen({super.key});

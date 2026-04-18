@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart' hide Order;
-import 'package:waiter_assistant/models/order_model.dart';
-import 'package:waiter_assistant/repositories/i_order_repository.dart';
+import 'package:waiter_assistant/data/models/order_model.dart';
+import 'package:waiter_assistant/data/repositories/i_order_repository.dart';
 
 class FirebaseOrderRepository implements IOrderRepository {
   final FirebaseFirestore _db = FirebaseFirestore.instance;
